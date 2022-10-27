@@ -1,0 +1,16 @@
+COURSE-6
+Sprint1,Practice
+
+create database CarSales;
+use CarSales;
+create table CarSales
+(salesId int Primary key,FirstName varchar(20),City varchar(30),CommisionRate int);
+desc CarSales;
+insert into CarSales values(1001,'John','London',12);
+insert into Carsales values(1002,'Bob','San Jose',13);
+insert into Carsales values(1004,'Judith','London',11);
+insert into Carsales values(1007,'Robin','Barceliona',15);
+insert into Carsales values(1003,'Harry','New York',10);
+insert into Carsales values(1005,'James','London',28);
+insert into Carsales values(1008,'Charles','Florida',0);
+select*from CarSales;
